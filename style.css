@@ -40,12 +40,11 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+   
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px;
 }
 
 .bloc-md {
@@ -377,6 +376,21 @@ a:hover {
     z-index: 2;
 }
 
+/***************modification 15Nov2021*********************/
+
+.col-sm-6 p {
+    float: right;
+    margin-top: -430px;
+    margin-right: 300px;
+    font-size: 15px;
+}
+
+.col-sm-12 p {
+    font-size: 19px;
+}
+
+/**********************************************************/
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -524,12 +538,19 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     margin-bottom: 20px;
+    height: 30px;
+    width: 80%;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    width: 50%
+    width: 50%;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+#message {
+    height: 100px;
 }
 
 .scrollToTop {
@@ -676,9 +697,10 @@ a {
     color: #575757!important;
 }
 
-.container {
+/*********************dout****************/
+.container 
     max-width: 1000px;
-}
+/****************************************/
 
 .hero-bloc-text {
     font-size: 38px;
@@ -746,11 +768,13 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
+    font-size: 40px;
 }
 
 h4 {
-    color: #333333!important;
+    color: white!important;
+    font-size: 30px;
 }
 
 .icons {
@@ -798,16 +822,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    text-align: center;
 }
 
 .banner_title {
-color: #F3976C!important;
+color: white!important;
 text-align: center;
 }
 
 .banner_subtitle {
-color: #F3976C!important;
+color: white!important;
 text-align: center;
 font-size: 28px;
 margin-top: -10px;
