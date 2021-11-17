@@ -52,7 +52,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    
 }
 
 .bg-center,
@@ -378,12 +378,6 @@ a:hover {
 
 /***************modification 15Nov2021*********************/
 
-.col-sm-6 p {
-    float: right;
-    margin-top: -430px;
-    margin-right: 300px;
-    font-size: 15px;
-}
 
 .col-sm-12 p {
     font-size: 19px;
