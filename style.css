@@ -383,7 +383,17 @@ a:hover {
     font-size: 19px;
 }
 
-/**********************************************************/
+/******************modification 18Nov2021*************************/
+.contact {
+    font-size: 20px;
+    margin-left: 60%;
+    margin-top: -30%;
+    padding-bottom: 20%;
+}
+
+
+
+/******************************************************************/
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1097,8 +1107,26 @@ margin-top: -10px;
     }
 }
 
+/*******************************/
 @media (max-width: 767px) {
-    .bloc-mob-center-text {
+
+ .bloc-mob-center-text {
         text-align: center;
     }
+
+.navbar-brand img {
+    height: 40px;
+    margin-top: 30px;
+    display: inline;
+}
+
+.navbar-header i {
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.row {
+    width: 95%;
+}
 }
