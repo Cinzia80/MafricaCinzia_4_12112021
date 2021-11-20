@@ -1126,7 +1126,61 @@ margin-top: -10px;
     font-size: 25px;
 }
 
+.navbar-collapse {
+    visibility: hidden;
+}
+
 .row {
     width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tc-white {
+    color: white!important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-group {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 90%;
+}
+
+.contact {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    padding-bottom: 0
+}
+
+.btn-atomic-tangerine {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border-bottom-color: #F3976C;
+}
+
+.col-sm-12 p {
+    font-size: 15px;
+}
+
+.white {
+    color: #FFFFFF!important;
+    margin-left: 18px;
+}
+
+.social {
+    margin: 30px 20px 30px 30px;
 }
 }
