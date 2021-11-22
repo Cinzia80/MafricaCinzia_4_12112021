@@ -1130,6 +1130,21 @@ margin-top: -10px;
     visibility: hidden;
 }
 
+.title_1 {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.title_2 {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.title_3 {
+    width: 100%;
+    margin-left: 20px;
+}
+
 .row {
     width: 95%;
     display: flex;
