@@ -1146,15 +1146,19 @@ margin-top: -10px;
 }
 
 .row {
-    width: 95%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .tc-white {
     color: white!important;
     text-align: center;
     font-size: 30px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .form-group {
@@ -1188,6 +1192,11 @@ margin-top: -10px;
 
 .col-sm-12 p {
     font-size: 15px;
+}
+
+.creation_site img {
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 .white {
