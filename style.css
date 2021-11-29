@@ -45,6 +45,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px;
+    margin-bottom: 60px;
 }
 
 .bloc-md {
@@ -385,9 +386,9 @@ a:hover {
 
 /******************modification 18Nov2021*************************/
 .contact {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 60%;
-    margin-top: -30%;
+    margin-top: -35%;
     padding-bottom: 20%;
 }
 
@@ -701,6 +702,9 @@ a {
     color: #575757!important;
 }
 
+label {
+    margin-bottom: 20px;
+}
 /*********************dout****************/
 .container 
     max-width: 1000px;
@@ -748,9 +752,14 @@ p {
 }
 
 .social {
-    max-width: 400px;
+        max-width: 400px;
     margin: auto auto auto auto;
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 80px;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
 h2 {
