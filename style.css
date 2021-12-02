@@ -40,7 +40,8 @@ a:hover {
 }
 
 .bloc .container {
-   
+  padding-top: 40px;
+  padding-bottom: 30px; 
 }
 
 .bloc-lg {
@@ -54,6 +55,10 @@ a:hover {
 
 .bloc-sm {
     
+}
+
+footer {
+    margin-top:-60px;
 }
 
 .bg-center,
@@ -379,19 +384,23 @@ a:hover {
 
 /***************modification 15Nov2021*********************/
 
-
 .col-sm-12 p {
-    font-size: 19px;
+    font-size: 19px; 
+}
+
+.agence-web {
+    
 }
 
 /******************modification 18Nov2021*************************/
 .contact {
-    font-size: 16px;
-    margin-left: 60%;
-    margin-top: -35%;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
+    margin-left:20px;
 }
 
+button {
+    width: 40.5%;
+}
 
 
 /******************************************************************/
@@ -729,7 +738,7 @@ label {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -752,14 +761,7 @@ p {
 }
 
 .social {
-        max-width: 400px;
-    margin: auto auto auto auto;
     margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    grid-gap: 80px;
-    text-decoration: none;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -1057,7 +1059,10 @@ margin-top: -10px;
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 20px;
+        margin-top: -30px;
     }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1147,19 +1152,32 @@ margin-top: -10px;
     width: 90%;
 }
 
+.creation_site {
+    max-width: 100%;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.portfolio-thumb {
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
 .social {
 width: 100%;
 display: flex;
-flex-direction: row;
 text-decoration: none;
-margin-left: 40px;
 margin-bottom: 20px;
+}
+
+.social_icone span {
+        padding: 30px 30px 20px 35px;
 }
 
 .tc-white {
     color: white!important;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 p {
@@ -1188,18 +1206,23 @@ p {
 }
 
 .btn-atomic-tangerine {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: -10px;
     border-radius: 20px;
     padding: 10px;
     border-bottom-color: #F3976C;
+}
+
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 0;
 }
 
 .col-sm-12 p {
     font-size: 15px;
     margin-top: 30px;
     margin-left: -10px;
-    margin-bottom: -30px;
+    margin-bottom: 20px;
 }
 
 .creation_site img {
