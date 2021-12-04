@@ -1128,10 +1128,18 @@ margin-top: -10px;
         text-align: center;
     }
 
+.keywords {
+    visibility: hidden;
+}
+
 .navbar-brand img {
     height: 40px;
     margin-top: 30px;
     display: inline;
+}
+
+.navbar-brand  {
+    margin-right: 30px;
 }
 
 .navbar-header i {
@@ -1140,15 +1148,18 @@ margin-top: -10px;
     font-size: 25px;
 }
 
+.navbar-header {
+    display: inline-flex;
+}
+
 .navbar-collapse {
     visibility: hidden;
 }
 
 .navbar-toggle {
     border: 0px;
-    margin: -30px;
-    margin-top: 38px;
-    padding-left: 60px:;
+    margin-left:: 30px;
+    margin-top: 30px;
     visibility: visible;
 }
 
@@ -1247,6 +1258,9 @@ p {
 
 /******************************Desktop*******************************/
 
+.keywords {
+    visibility: hidden;
+}
 
 .creation_site {
     max-width: 100%;
