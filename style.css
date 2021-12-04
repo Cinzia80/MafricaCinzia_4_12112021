@@ -1144,6 +1144,14 @@ margin-top: -10px;
     visibility: hidden;
 }
 
+.navbar-toggle {
+    border: 0px;
+    margin: -30px;
+    margin-top: 38px;
+    padding-left: 60px:;
+    visibility: visible;
+}
+
 .title_1, .title_2, .title_3 {
     width: 100%;
 }
