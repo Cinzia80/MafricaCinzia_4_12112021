@@ -761,6 +761,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #222121!important;
+    text-align: center;
 }
 
 h3 {
@@ -1052,6 +1054,7 @@ margin-top: -10px;
         float: left;
         margin-left: 10px;
     }
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1182,6 +1185,17 @@ margin-top: 0;
     width: 100%;
 }
 
+.citation {
+    color: #575757!important;;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author_citation {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .container {
     width: 90%;
 }
@@ -1189,13 +1203,24 @@ margin-top: 0;
 .creation_site {
     max-width: 100%;
     padding-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
+
+.portfolio-row {
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+
+.bloc {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
 
 .social {
 width: 100%;
@@ -1211,7 +1236,7 @@ margin-bottom: 20px;
 .tc-white {
     color: white!important;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 p {
