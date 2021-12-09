@@ -551,7 +551,7 @@ button {
     box-shadow: none;
     margin-bottom: 20px;
     height: 30px;
-    width: 80%;
+    width: 100%;
 }
 
 .form-group {
@@ -561,9 +561,21 @@ button {
     transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
 }
 
-#message {
-    height: 100px;
+.form-control:hover {
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    border-color: darkgray;
 }
+
+.form-control {
+    border-color: #a9a9a98a;
+    box-shadow: none;
+}
+
+.form-group:hover {
+   transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    border-color: darkgray;
+}
+
 
 .scrollToTop {
     width: 40px;
@@ -711,6 +723,7 @@ a {
 
 label {
     margin-bottom: 20px;
+    color: #222121!important;
 }
 
 .hero-bloc-text {
@@ -995,7 +1008,7 @@ margin-top: -10px;
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;
+        margin-left: -10px;
         margin-right: 0;
     }
     .site-navigation {
@@ -1023,29 +1036,38 @@ margin-top: -10px;
         border-right-color: transparent;
         border-left-color: transparent;
     }
+
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
     }
+
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
     }
+
     .hero {
         padding: 50px 0;
     }
+
     .hero-nav {
         left: -1px;
         right: -1px;
     }
+
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        width: 450px;
+    margin-left: -20px;
     }
+
     .navbar-brand img {
         max-height: 40px;
         width: auto;
     }
+
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
@@ -1086,27 +1108,36 @@ margin-top: -10px;
     .btn-dwn {
         display: none;
     }
+
     .voffset {
         margin-top: 5px;
     }
+
     .voffset-md {
         margin-top: 20px;
     }
+
     .voffset-lg {
         margin-top: 30px;
     }
+
     form {
         padding: 5px;
+ margin-left: -15px;
     }
+    }
+
     .close-lightbox {
         display: inline-block;
     }
+
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
         height: 425px;
     }
+
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
@@ -1175,10 +1206,14 @@ margin-top: 0;
 
 .navbar-toggle {
     border: 0px;
-    margin-top: 40px;
+    margin-top: 33px;
     visibility: visible;
     width: 10%;
-    margin-left: 25px;
+    margin-left: 40px;
+}
+
+#bloc-1-hero h1 {
+    font-size: 33px;
 }
 
 .citation {
@@ -1255,7 +1290,7 @@ p {
 }
 
 .form-control {
-    width: 90%;
+    width: 100%;
 }
 
 .contact {
@@ -1263,6 +1298,10 @@ p {
     margin-top: 20px;
     font-size: 15px;
     padding-bottom: 0
+}
+
+.col-sm-12 a {
+    width: 50%;
 }
 
 .btn-atomic-tangerine {
@@ -1280,7 +1319,6 @@ p {
 .col-sm-12 p {
     font-size: 15px;
     margin-top: 30px;
-    margin-left: -10px;
     margin-bottom: 20px;
 }
 
@@ -1309,7 +1347,7 @@ p {
 }
 
 .col-sm-12 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .navbar .nav {
@@ -1381,16 +1419,25 @@ section h2 {
 
 #form_1 {
     width: 100%;
-    margin-left: -100px;
+    margin-left: -80px;
+    margin-top: 70px;
+}
+
+.form-control {
+    margin-top: -15px;
+}
+
+.form-group {
+    margin-top: -15px;
 }
 
 .contact {
-    margin-top: -605px;
+    margin-top: -500px;
     float: right;
-    margin-right: -300px;
+    margin-right: -400px;
 }
 
 .bloc-button.btn.btn-lg {
-    width: 80%;
+    width: 100%;
 }
 }
