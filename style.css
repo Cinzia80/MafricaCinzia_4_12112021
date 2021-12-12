@@ -842,7 +842,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #7b7474;
+    background-color: #646785;
 }
 
 .tc-white {
@@ -863,7 +863,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #7b7474!important;
+    background: #646785!important;
     color: #FFFFFF!important;
     border-radius: 20px;
     width: 80%;
@@ -1302,7 +1302,7 @@ p {
     width: 100%;
     border-radius: 20px;
     padding: 10px;
-    border-bottom-color: #7b7474;
+    border-bottom-color: #646785;
 }
 
 .black-background {
@@ -1355,7 +1355,7 @@ p {
         width: 20%;
         border-radius: 20px;
         padding: 10px;
-        border-bottom-color: #7b7474;
+        border-bottom-color: #646785;
     }
 
     #bloc-3-what-i-do p {
