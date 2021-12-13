@@ -382,18 +382,17 @@ footer {
     z-index: 2;
 }
 
-/***************modification 15Nov2021*********************/
-
 .col-sm-12 p {
-    font-size: 19px; 
+    font-size: 18px; 
+    margin-bottom: 60px;
 }
 
-
-
-/******************modification 18Nov2021*************************/
 .contact {
-
     margin-left:20px;
+}
+
+.contact a {
+    text-decoration: none;
 }
 
 button {
@@ -769,6 +768,7 @@ p {
 
 .social {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -912,6 +912,24 @@ h4 {
 }
 
 
+a.agence-web.text-center.white:hover {
+    color: #94a3a2;;
+    text-decoration: none;
+}
+
+a.agence-web.text-center.white  {
+    color: white;
+    text-decoration: none;
+        text-align: center;
+}
+
+.col-sm-12 a,p {
+    text-align: center;
+}
+
+
+
+/***********************************************/
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1236,6 +1254,10 @@ h4 {
     margin-top: 20px;
 }
 
+.lightbox-caption  {
+    font-size: 14px;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
     margin-top: 30px;
@@ -1291,7 +1313,7 @@ p {
     margin-left: 0;
     margin-top: 20px;
     font-size: 15px;
-    padding-bottom: 0
+    padding-bottom: 0;
 }
 
 .col-sm-12 a {
@@ -1429,6 +1451,7 @@ p {
     margin-top: -500px;
     float: right;
     margin-right: -400px;
+    text-align: justify;
 }
 
 .bloc-button.btn.btn-lg {
